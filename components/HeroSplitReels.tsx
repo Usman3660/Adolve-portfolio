@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { useVideo } from "./VideoContext";
 
 interface SplitColumn {
@@ -17,30 +17,39 @@ const COLUMNS: SplitColumn[] = [
     slug: "pheralab",
     title: "PHERALAB",
     description: "Two sensual perfume campaigns: Her Moans and Her Loss.",
-    videoUrl:
-      "https://assets.mixkit.co/videos/preview/mixkit-hands-holding-a-pipette-dropping-serum-into-a-bottle-43180-large.mp4",
+    videoUrl: "/videos/video-1.mp4",
   },
   {
     number: "02",
     slug: "jacob-and-isaac",
     title: "JACOB & ISAAC",
     description: "One cinematic film for a custom-made shoe brand.",
-    videoUrl:
-      "https://assets.mixkit.co/videos/preview/mixkit-tailor-working-with-measuring-tape-in-his-workshop-43033-large.mp4",
+    videoUrl: "/videos/video-2.mp4",
   },
   {
     number: "03",
     slug: "broastiano",
     title: "BROASTIANO",
     description: "A preparation video, creative images and menu photos.",
-    videoUrl:
-      "https://assets.mixkit.co/videos/preview/mixkit-frying-chicken-drumsticks-in-boiling-oil-42861-large.mp4",
+    videoUrl: "/videos/video-3.mp4",
   },
 ];
 
 export function HeroSplitReels() {
   const { openVideo } = useVideo();
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
+
+  useEffect(() => {
+    // Ensure all background preview videos start playing immediately on mount
+    videoRefs.current.forEach((video) => {
+      if (video) {
+        video.muted = true;
+        video.play().catch(() => {
+          // Fallback if browser requires user gesture
+        });
+      }
+    });
+  }, []);
 
   const handleOpenReel = (col: SplitColumn) => {
     openVideo({
@@ -62,7 +71,7 @@ export function HeroSplitReels() {
           className="group relative h-full w-full flex flex-col justify-end p-8 sm:p-12 overflow-hidden cursor-pointer"
         >
           {/* Background Video */}
-          <div className="absolute inset-0 z-0 overflow-hidden">
+          <div className="absolute inset-0 z-0 overflow-hidden bg-black">
             <video
               ref={(el) => {
                 videoRefs.current[idx] = el;
@@ -72,6 +81,7 @@ export function HeroSplitReels() {
               loop
               muted
               playsInline
+              preload="auto"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter brightness-[0.7] contrast-[1.05]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/25 to-black/35" />

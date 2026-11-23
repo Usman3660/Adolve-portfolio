@@ -19,7 +19,7 @@ export function Navbar() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 w-full bg-black/60 backdrop-blur-md transition-all border-b border-white/5">
+      <header className="fixed top-0 left-0 right-0 z-50 w-full bg-transparent transition-colors">
         <div className="max-w-[1920px] mx-auto px-6 sm:px-10 h-20 flex items-center justify-between">
           {/* Left: Brand Logo */}
           <Link

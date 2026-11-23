@@ -191,7 +191,7 @@ export function HeroInteractive() {
               ease: [0.16, 1, 0.3, 1],
             }}
             style={{ originX: 0 }}
-            className="inline-block w-fit text-[14.5vw] font-black leading-[0.84] cursor-pointer will-change-transform select-none"
+            className="inline-block w-fit text-[9.5vw] sm:text-[10vw] md:text-[10.5vw] lg:text-[11vw] font-black leading-[0.84] cursor-pointer will-change-transform select-none"
           >
             WE MAKE
           </motion.div>
@@ -223,7 +223,7 @@ export function HeroInteractive() {
               ease: [0.16, 1, 0.3, 1],
             }}
             style={{ originX: 0 }}
-            className="inline-block w-fit text-[14.5vw] font-black leading-[0.84] cursor-pointer will-change-transform select-none"
+            className="inline-block w-fit text-[9.5vw] sm:text-[10vw] md:text-[10.5vw] lg:text-[11vw] font-black leading-[0.84] cursor-pointer will-change-transform select-none"
           >
             BRANDS
           </motion.div>
@@ -255,7 +255,7 @@ export function HeroInteractive() {
               ease: [0.16, 1, 0.3, 1],
             }}
             style={{ originX: 0 }}
-            className="inline-block w-fit text-[14.5vw] font-black leading-[0.84] cursor-pointer will-change-transform select-none"
+            className="inline-block w-fit text-[9.5vw] sm:text-[10vw] md:text-[10.5vw] lg:text-[11vw] font-black leading-[0.84] cursor-pointer will-change-transform select-none"
           >
             IMPOSSIBLE
           </motion.div>
@@ -287,7 +287,7 @@ export function HeroInteractive() {
               ease: [0.16, 1, 0.3, 1],
             }}
             style={{ originX: 0 }}
-            className="inline-block w-fit text-[14.5vw] font-black leading-[0.84] cursor-pointer will-change-transform select-none"
+            className="inline-block w-fit text-[9.5vw] sm:text-[10vw] md:text-[10.5vw] lg:text-[11vw] font-black leading-[0.84] cursor-pointer will-change-transform select-none"
           >
             TO SCROLL PAST.
           </motion.div>
