@@ -137,7 +137,7 @@ export function PricingCalculator() {
   };
 
   const generateWhatsAppUrl = (tierName: string, price: number) => {
-    const summary = `Hi Filma Studio, I would like to book the ${tierName} package.
+    const summary = `Hi Advolve Studio, I would like to book the ${tierName} package.
 · What do you need?: ${need}
 · Brand Category: ${category}
 · Model: ${model}

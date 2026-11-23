@@ -24,11 +24,11 @@ export function Navbar() {
           {/* Left: Brand Logo */}
           <Link
             href="/"
-            data-curtain-title="FILMA STUDIO"
+            data-curtain-title="ADVOLVE STUDIO"
             className="flex items-center tracking-tight py-2 px-1"
           >
             <span className="font-sans text-2xl sm:text-3xl font-extrabold tracking-tighter text-white hover:text-neutral-300 transition-colors">
-              FILMA
+              ADVOLVE
             </span>
           </Link>
 
@@ -62,7 +62,7 @@ export function Navbar() {
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Filma Studio on Instagram"
+              aria-label="Advolve Studio on Instagram"
               className="text-white hover:text-[#dc2626] transition-colors p-1"
             >
               <svg
@@ -126,7 +126,7 @@ export function Navbar() {
           </div>
 
           <div className="mt-auto pb-10 pt-6 text-neutral-500 font-mono text-xs flex justify-between items-center border-t border-neutral-900">
-            <span>FILMA STUDIO · LAHORE</span>
+            <span>ADVOLVE STUDIO · LAHORE</span>
             <a
               href="https://wa.me/923190443003"
               target="_blank"

@@ -134,7 +134,7 @@ export default function PricingPage() {
                   </p>
                 </div>
                 <div className="mt-6 pt-3 border-t border-neutral-900/80 font-mono text-[10px] text-neutral-600 uppercase tracking-widest">
-                  Filma Studio Policy
+                  Advolve Studio Policy
                 </div>
               </div>
             ))}
@@ -153,7 +153,7 @@ export default function PricingPage() {
 
           <div className="flex flex-wrap items-center justify-center gap-4 font-mono text-xs">
             <a
-              href="https://wa.me/923190443003?text=Hi%20Filma%20Studio%2C%20I%20have%20a%20custom%20enterprise%20production%20brief."
+              href="https://wa.me/923190443003?text=Hi%20Advolve%20Studio%2C%20I%20have%20a%20custom%20enterprise%20production%20brief."
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3.5 bg-white text-black font-semibold uppercase tracking-wider flex items-center gap-2 hover:bg-neutral-200 transition-colors"

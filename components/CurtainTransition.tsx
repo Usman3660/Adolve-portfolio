@@ -24,7 +24,7 @@ export function CurtainProvider({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
   const [isTransitioning, setIsTransitioning] = useState(false);
-  const [targetTitle, setTargetTitle] = useState("FILMA");
+  const [targetTitle, setTargetTitle] = useState("ADVOLVE");
 
   // Derive readable title from href if none provided
   const getTitleFromHref = (href: string): string => {
@@ -102,7 +102,7 @@ export function CurtainProvider({ children }: { children: ReactNode }) {
             <div className="flex items-center justify-between font-mono text-xs text-white/80 uppercase tracking-widest">
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-white animate-ping" />
-                <span>FILMA STUDIO · LAHORE</span>
+                <span>ADVOLVE STUDIO · LAHORE</span>
               </div>
               <div>TC 00:00:24:00</div>
             </div>

@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://filmastudio.com/sitemap.xml",
+    sitemap: "https://advolve.studio/sitemap.xml",
   };
 }
 

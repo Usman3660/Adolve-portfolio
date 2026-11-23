@@ -153,7 +153,7 @@ export function HeroInteractive() {
         <div className="flex flex-col gap-2">
           <div className="w-5 h-5 border-l-2 border-t-2 border-neutral-700" />
           <span className="text-[11px] text-neutral-400 font-mono tracking-widest">
-            FILMA STUDIO · LAHORE
+            ADVOLVE STUDIO · LAHORE
           </span>
         </div>
         <div className="w-5 h-5 border-r-2 border-t-2 border-neutral-700" />

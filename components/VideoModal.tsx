@@ -151,7 +151,7 @@ export function VideoModal() {
                 <span>SMPTE Master Reel</span>
               </span>
               <span className="text-white font-medium tracking-wide">
-                {currentVideo.title || "Filma Commercial Cut"}
+                {currentVideo.title || "Advolve Commercial Cut"}
               </span>
               {currentVideo.client && (
                 <span className="hidden sm:inline text-neutral-500">

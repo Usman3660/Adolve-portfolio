@@ -69,11 +69,11 @@ export const PROJECTS: Project[] = [
       { role: "Director", name: "Harmas Talha" },
       { role: "Director of Photography", name: "Saad Mir" },
       { role: "Executive Producer", name: "Muhammad Affan Mavia" },
-      { role: "Colorist", name: "Filma Color Studio (DaVinci)" },
+      { role: "Colorist", name: "Advolve Color Studio (DaVinci)" },
       { role: "Sound Designer", name: "Ayan Rauf" },
     ],
     quote: {
-      text: "Filma elevated our product tier overnight. People assumed this was an Apple or Nothing Tech global commercial. The conversions spoke for themselves.",
+      text: "Advolve elevated our product tier overnight. People assumed this was an Apple or Nothing Tech global commercial. The conversions spoke for themselves.",
       author: "Danyal S.",
       title: "Head of Growth, Zero Lifestyle",
     },
@@ -171,10 +171,10 @@ export const PROJECTS: Project[] = [
       { role: "Creative Director", name: "Harmas Talha" },
       { role: "Product Stylist", name: "Zainab Raza" },
       { role: "Lighting Director", name: "Bilal Cheema" },
-      { role: "Post Production", name: "Filma Studio" },
+      { role: "Post Production", name: "Advolve Studio" },
     ],
     quote: {
-      text: "Our Amazon storefront looks like Le Labo or Aesop. Filma transformed simple bottles into objects of obsession.",
+      text: "Our Amazon storefront looks like Le Labo or Aesop. Advolve transformed simple bottles into objects of obsession.",
       author: "Mariam K.",
       title: "Founder, PheraLab",
     },
@@ -476,7 +476,7 @@ export const PROJECTS: Project[] = [
       { role: "Executive Producer", name: "Muhammad Affan Mavia" },
     ],
     quote: {
-      text: "Filma made our perfumes visible to the soul. Customers told us they bought the fragrance because the film made them feel what it smells like.",
+      text: "Advolve made our perfumes visible to the soul. Customers told us they bought the fragrance because the film made them feel what it smells like.",
       author: "Hina Mansoor",
       title: "Master Nose & Co-founder",
     },
@@ -694,9 +694,9 @@ export const PROJECTS: Project[] = [
     ],
     credits: [
       { role: "Director", name: "Harmas Talha" },
-      { role: "Editor", name: "Filma Studio" },
+      { role: "Editor", name: "Advolve Studio" },
       { role: "Stylist", name: "Daniyal Q." },
-      { role: "Colorist", name: "Filma DaVinci Lab" },
+      { role: "Colorist", name: "Advolve DaVinci Lab" },
     ],
     campaigns: [
       {

@@ -102,7 +102,7 @@ export default function JoinUsPage() {
                 </div>
 
                 <div className="mt-6 pt-4 border-t border-neutral-900 font-mono text-[10px] text-neutral-500 uppercase tracking-widest flex items-center justify-between">
-                  <span>Filma Soundstage</span>
+                  <span>Advolve Soundstage</span>
                   <span className="text-emerald-400">Accepting Showreels</span>
                 </div>
               </div>

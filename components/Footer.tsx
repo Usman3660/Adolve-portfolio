@@ -64,10 +64,10 @@ export function Footer() {
                 +92 319 044 3003
               </a>
               <a
-                href="mailto:filmastuddio@gmail.com"
+                href="mailto:advolvestudio@gmail.com"
                 className="block text-white hover:text-[#dc2626] transition-colors"
               >
-                filmastuddio@gmail.com
+                advolvestudio@gmail.com
               </a>
             </div>
           </div>
@@ -169,23 +169,23 @@ export function Footer() {
           </div>
         </div>
 
-        {/* FILMA Massive Watermark: Small initial size, zooms in on hover */}
-        <div className="w-full pt-16 sm:pt-24 pb-8 sm:pb-12 flex justify-center items-center overflow-hidden">
+        {/* ADVOLVE Massive Watermark: Reduced size to fit 7-letter word, zooms in on hover */}
+        <div className="w-full pt-10 sm:pt-16 pb-6 sm:pb-8 flex justify-center items-center overflow-hidden">
           <motion.div
             onClick={scrollToTop}
             initial="rest"
             whileHover="hover"
             animate="rest"
-            className="cursor-pointer select-none w-full flex justify-center items-center py-4"
+            className="cursor-pointer select-none w-full flex justify-center items-center py-2"
           >
             <motion.h1
               variants={{
                 rest: {
-                  scale: 0.72,
+                  scale: 0.78,
                   opacity: 0.92,
                 },
                 hover: {
-                  scale: 1.04,
+                  scale: 1.02,
                   opacity: 1,
                 },
               }}
@@ -193,16 +193,16 @@ export function Footer() {
                 duration: 0.75,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="font-sans font-black text-[#dc2626] text-[20vw] sm:text-[23vw] tracking-tighter leading-none text-center will-change-transform transform-gpu m-0 p-0"
+              className="font-sans font-black text-[#dc2626] text-[12vw] sm:text-[14vw] md:text-[15.5vw] tracking-tighter leading-none text-center will-change-transform transform-gpu m-0 p-0"
             >
-              FILMA
+              ADVOLVE
             </motion.h1>
           </motion.div>
         </div>
 
-        {/* Bottom bar: © 2026 FILMA STUDIO & MADE IN LAHORE */}
+        {/* Bottom bar: © 2026 ADVOLVE STUDIO & MADE IN LAHORE */}
         <div className="pt-6 sm:pt-8 flex items-center justify-between font-mono text-[11px] sm:text-xs text-neutral-500 uppercase tracking-widest border-t border-neutral-900/60">
-          <div>© 2026 FILMA STUDIO</div>
+          <div>© 2026 ADVOLVE STUDIO</div>
           <div>MADE IN LAHORE</div>
         </div>
       </div>

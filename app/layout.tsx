@@ -9,11 +9,11 @@ import { CustomCursor } from "@/components/CustomCursor";
 import { CurtainProvider } from "@/components/CurtainTransition";
 
 export const metadata: Metadata = {
-  title: "Filma Studio | Elite Editorial Film & Commercial Production · Lahore",
+  title: "Advolve Studio | Elite Editorial Film & Commercial Production · Lahore",
   description:
-    "Filma Studio is an elite editorial film production and brand marketing house based in Bahria Orchard, Lahore, Pakistan. We make commercial video ads and e-commerce visuals impossible to scroll past.",
+    "Advolve Studio is an elite editorial film production and brand marketing house based in Bahria Orchard, Lahore, Pakistan. We make commercial video ads and e-commerce visuals impossible to scroll past.",
   keywords: [
-    "Filma Studio",
+    "Advolve Studio",
     "Commercial Video Ads Lahore",
     "Product Photography Pakistan",
     "E-commerce Shoots",
@@ -21,12 +21,12 @@ export const metadata: Metadata = {
     "Bahria Orchard Production Studio",
     "SMPTE Timecode Production",
   ],
-  authors: [{ name: "Filma Studio" }],
+  authors: [{ name: "Advolve Studio" }],
   openGraph: {
-    title: "Filma Studio | Elite Editorial Film & Commercial Production",
+    title: "Advolve Studio | Elite Editorial Film & Commercial Production",
     description: "We make brands impossible to scroll past. Commercial ads, product shoots & brand films.",
-    url: "https://filmastudio.com",
-    siteName: "Filma Studio",
+    url: "https://advolve.studio",
+    siteName: "Advolve Studio",
     locale: "en_PK",
     type: "website",
   },

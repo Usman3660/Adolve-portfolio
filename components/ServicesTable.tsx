@@ -67,7 +67,7 @@ export function ServicesTable() {
   const handleRowClick = (row: ServiceRowData) => {
     openVideo({
       url: row.videoUrl,
-      title: `${row.title.replace("\n", " ")} · Filma Service Reel`,
+      title: `${row.title.replace("\n", " ")} · Advolve Service Reel`,
       client: "Commercial Production Service",
       timecode: "00:00:15:00",
     });

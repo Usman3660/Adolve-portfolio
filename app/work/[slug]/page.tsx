@@ -21,15 +21,15 @@ export async function generateMetadata({
 
   if (!project) {
     return {
-      title: "Project Not Found | Filma Studio",
+      title: "Project Not Found | Advolve Studio",
     };
   }
 
   return {
-    title: `${project.title} · Commercial Case Study | Filma Studio`,
+    title: `${project.title} · Commercial Case Study | Advolve Studio`,
     description: project.tagline,
     openGraph: {
-      title: `${project.title} | Filma Studio Lahore`,
+      title: `${project.title} | Advolve Studio Lahore`,
       description: project.overview,
       images: [project.heroImage],
     },

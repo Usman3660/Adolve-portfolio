@@ -93,7 +93,7 @@ export function TimecodeClock({ minimal = false, className = "" }: TimecodeClock
 
       <div className="mt-3 pt-2 border-t border-neutral-900 flex items-center justify-between text-[10px] text-neutral-500">
         <span>Bahria Orchard, Raiwind Rd, Lahore</span>
-        <span className="text-neutral-400">Filma HQ</span>
+        <span className="text-neutral-400">Advolve HQ</span>
       </div>
     </div>
   );

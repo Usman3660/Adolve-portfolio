@@ -45,7 +45,7 @@ export default function ContactPage() {
   };
 
   const generateWhatsAppRedirect = () => {
-    const summary = `Hi Filma Studio, I submitted a project brief.
+    const summary = `Hi Advolve Studio, I submitted a project brief.
 · Brand: ${formData.brandName || "N/A"}
 · Contact: ${formData.clientName || "N/A"} (${formData.phone})
 · Category: ${formData.category}
@@ -108,10 +108,10 @@ export default function ContactPage() {
                   Executive Production & Billing
                 </span>
                 <a
-                  href="mailto:contact@filmastudio.com"
+                  href="mailto:contact@advolve.studio"
                   className="text-white hover:underline flex items-center justify-between"
                 >
-                  <span>contact@filmastudio.com</span>
+                  <span>contact@advolve.studio</span>
                   <Mail className="w-4 h-4 text-neutral-400" />
                 </a>
                 <span className="text-[11px] text-neutral-500 mt-1 block">

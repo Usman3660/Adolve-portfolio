@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { PROJECTS } from "@/lib/projects-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://filmastudio.com";
+  const baseUrl = "https://advolve.studio";
 
   const staticRoutes = [
     "",

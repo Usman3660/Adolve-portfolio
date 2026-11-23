@@ -77,7 +77,7 @@ const TEAM_MEMBERS = [
   {
     name: "Muhammad Affan Mavia",
     role: "CFO & Executive Producer",
-    bio: "Architects commercial client operations, production financing, talent procurement, and soundstage infrastructure at Filma HQ in Bahria Orchard.",
+    bio: "Architects commercial client operations, production financing, talent procurement, and soundstage infrastructure at Advolve HQ in Bahria Orchard.",
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
     timecode: "TC 00:00:02:00",
@@ -120,7 +120,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start pt-6">
             <div className="lg:col-span-7">
               <p className="text-lg sm:text-xl text-neutral-200 font-sans leading-relaxed mb-6">
-                Filma Studio was born in Lahore with a single conviction: modern
+                Advolve Studio was born in Lahore with a single conviction: modern
                 digital advertising is suffocating under boring, predictable,
                 low-effort templates.
               </p>
@@ -255,7 +255,7 @@ export default function AboutPage() {
                 </div>
 
                 <div className="pt-3 border-t border-neutral-900 font-mono text-[10px] text-neutral-600 uppercase tracking-widest flex justify-between items-center">
-                  <span>Filma Core</span>
+                  <span>Advolve Core</span>
                   <span>Lahore HQ</span>
                 </div>
               </div>

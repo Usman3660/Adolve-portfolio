@@ -41,7 +41,7 @@ export function SplitText({
       opacity: 1,
       transition: {
         duration: 0.8,
-        ease: [0.16, 1, 0.3, 1] as [number, number, number, number], // Filma standard editorial curve
+        ease: [0.16, 1, 0.3, 1] as [number, number, number, number], // Advolve standard editorial curve
       },
     },
   };
